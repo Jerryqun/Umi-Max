@@ -9,7 +9,12 @@ const SubModule = () => {
 
   return (
     <Suspense>
-      <DeopCmd key="deopCmd" pathname={pathname} search={search}></DeopCmd>
+      <DeopCmd
+        adName="cq"
+        key="deopCmd"
+        pathname={pathname}
+        search={search}
+      ></DeopCmd>
     </Suspense>
   );
 };
